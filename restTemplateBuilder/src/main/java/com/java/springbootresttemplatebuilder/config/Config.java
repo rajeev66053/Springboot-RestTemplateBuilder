@@ -19,20 +19,4 @@ public class Config {
                 .setReadTimeout(Duration.ofMillis(2000)) //set timeout in rest request
                 .build();
     }
-
-//    @Bean
-//    public MyRequestInterceptor myRequestInterceptor() {
-//        return new MyRequestInterceptor();
-//    }
-//
-//    @Bean
-//    public MyRestTemplateCustomizer restTemplateCustomizer() {
-//        return new MyRestTemplateCustomizer();
-//    }
-//
-//    @Bean
-//    @DependsOn("restTemplateCustomizer")
-//    public RestTemplateBuilder restTemplateBuilder(RestTemplateCustomizer restTemplateCustomizer) {
-//        return new RestTemplateBuilder(restTemplateCustomizer);
-//    }
 }
